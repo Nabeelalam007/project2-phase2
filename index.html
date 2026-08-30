@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retail Sales Analytics Dashboard</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #f4f6f8;
+            color: #222;
+        }
+
+        header {
+            background: #1f2937;
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0 0 10px;
+        }
+
+        header p {
+            margin: 0;
+            color: #d1d5db;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1100px;
+            margin: 30px auto;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+
+        .card h3 {
+            margin-top: 0;
+            color: #555;
+        }
+
+        .card .number {
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .chart {
+            background: white;
+            padding: 20px;
+            margin-bottom: 25px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+
+        .chart h2 {
+            text-align: center;
+            margin-top: 0;
+        }
+
+        .chart img {
+            display: block;
+            width: 80%;
+            max-width: 700px;
+            margin: auto;
+        }
+
+        footer {
+            text-align: center;
+            padding: 25px;
+            color: #666;
+        }
+
+        @media (max-width: 700px) {
+            .cards {
+                grid-template-columns: 1fr;
+            }
+
+            .chart img {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Retail Sales Analytics Dashboard</h1>
+    <p>Project 2 — Phase 2 | Multi-Agent Retail Data Pipeline</p>
+</header>
+
+<div class="container">
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>Total Sales</h3>
+            <div class="number">$2,326,534.35</div>
+        </div>
+
+        <div class="card">
+            <h3>Cleaned Rows</h3>
+            <div class="number">10,194</div>
+        </div>
+
+        <div class="card">
+            <h3>Top Category</h3>
+            <div class="number">Technology</div>
+        </div>
+
+    </div>
+
+    <div class="chart">
+        <h2>Sales by Region</h2>
+        <img src="../output/sales_by_region.png" alt="Sales by Region">
+    </div>
+
+    <div class="chart">
+        <h2>Sales by Category</h2>
+        <img src="../output/sales_by_category.png" alt="Sales by Category">
+    </div>
+
+    <div class="chart">
+        <h2>Top 5 Products by Sales</h2>
+        <img src="../output/top_5_products.png" alt="Top 5 Products">
+    </div>
+        <div class="chart">
+        <h2>AI-Generated Business Insights</h2>
+
+        <ul>
+            <li>
+                Technology is the strongest-performing category,
+                generating approximately $839,893 in sales.
+            </li>
+
+            <li>
+                The West region has the highest sales,
+                generating approximately $739,814.
+            </li>
+
+            <li>
+                The Canon imageCLASS 2200 Advanced Copier is the
+                top-selling product, generating approximately $61,600.
+            </li>
+        </ul>
+    </div>
+
+</div>
+
+<footer>
+    Built with Python, Pandas, LangChain, LangGraph and Gemini
+</footer>
+
+</body>
+</html>
