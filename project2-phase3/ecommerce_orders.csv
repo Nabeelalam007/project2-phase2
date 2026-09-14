@@ -1,0 +1,21 @@
+Order_ID,Order_Date,Customer_ID,Product,Category,Quantity,Unit_Price,Total_Sales,Region,Payment_Method
+E001,2026-01-05,C101,Laptop,Electronics,1,850,850,North,Credit Card
+E002,2026-01-07,C102,Headphones,Electronics,2,75,150,South,PayPal
+E003,2026-01-10,C103,Running Shoes,Footwear,1,120,120,East,Cash
+E004,2026-01-12,C104,Office Chair,Furniture,2,180,360,West,Credit Card
+E005,2026-01-15,C105,Smartphone,Electronics,1,650,650,North,Debit Card
+E006,2026-01-18,C106,T-Shirt,Clothing,3,25,75,South,PayPal
+E007,2026-01-21,C107,Desk,Furniture,1,250,250,East,Credit Card
+E008,2026-01-24,C108,Backpack,Accessories,2,45,90,West,Cash
+E009,2026-01-27,C109,Monitor,Electronics,2,220,440,North,Debit Card
+E010,2026-02-02,C110,Jeans,Clothing,2,55,110,South,Credit Card
+E011,2026-02-05,C111,Keyboard,Electronics,3,40,120,East,PayPal
+E012,2026-02-08,C112,Sofa,Furniture,1,700,700,West,Credit Card
+E013,2026-02-11,C113,Sneakers,Footwear,2,95,190,North,Cash
+E014,2026-02-14,C114,Tablet,Electronics,1,320,320,South,Debit Card
+E015,2026-02-18,C115,Jacket,Clothing,1,90,90,East,Credit Card
+E016,2026-02-21,C116,Mouse,Electronics,4,25,100,West,PayPal
+E017,2026-02-24,C117,Bookshelf,Furniture,1,160,160,North,Cash
+E018,2026-02-27,C118,Watch,Accessories,2,80,160,South,Credit Card
+E019,2026-03-03,C119,Printer,Electronics,1,210,210,East,Debit Card
+E020,2026-03-06,C120,Hoodie,Clothing,2,45,90,West,PayPal

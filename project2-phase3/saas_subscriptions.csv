@@ -1,0 +1,16 @@
+Subscription_ID,Start_Date,Customer_ID,Plan,Monthly_Fee,Users,Active_Users,Support_Tickets,Churned,Region
+S001,2026-01-03,C201,Basic,29,5,5,1,No,North
+S002,2026-01-05,C202,Pro,79,12,10,2,No,South
+S003,2026-01-08,C203,Enterprise,199,40,38,3,No,East
+S004,2026-01-11,C204,Basic,29,4,2,5,Yes,West
+S005,2026-01-14,C205,Pro,79,15,14,1,No,North
+S006,2026-01-17,C206,Enterprise,199,60,55,4,No,South
+S007,2026-01-20,C207,Basic,29,3,1,6,Yes,East
+S008,2026-01-23,C208,Pro,79,20,18,2,No,West
+S009,2026-01-26,C209,Enterprise,199,75,70,5,No,North
+S010,2026-02-02,C210,Basic,29,6,6,0,No,South
+S011,2026-02-05,C211,Pro,79,10,9,3,No,East
+S012,2026-02-08,C212,Enterprise,199,50,45,7,Yes,West
+S013,2026-02-11,C213,Basic,29,8,7,1,No,North
+S014,2026-02-14,C214,Pro,79,18,16,2,No,South
+S015,2026-02-17,C215,Enterprise,199,90,86,3,No,East

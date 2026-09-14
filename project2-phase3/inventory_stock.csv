@@ -1,0 +1,16 @@
+Product_ID,Product_Name,Category,Warehouse,Stock_Level,Reorder_Level,Units_Received,Units_Sold,Unit_Cost,Supplier,Stock_Status
+P001,Laptop,Electronics,WH-North,45,20,100,55,650,TechSupply,In Stock
+P002,Keyboard,Electronics,WH-South,120,40,200,80,25,TechSupply,In Stock
+P003,Office Chair,Furniture,WH-East,18,25,60,42,120,OfficePro,Reorder
+P004,Desk,Furniture,WH-West,35,20,80,45,180,OfficePro,In Stock
+P005,Monitor,Electronics,WH-North,12,20,50,38,160,DisplayCo,Reorder
+P006,Mouse,Electronics,WH-South,200,50,300,100,12,TechSupply,In Stock
+P007,Printer,Electronics,WH-East,8,15,30,22,140,PrintWorld,Critical
+P008,Notebook,Stationery,WH-West,250,100,400,150,3,PaperGoods,In Stock
+P009,Pen,Stationery,WH-North,500,200,800,300,1,PaperGoods,In Stock
+P010,Bookshelf,Furniture,WH-South,22,15,50,28,110,OfficePro,In Stock
+P011,Tablet,Electronics,WH-East,16,20,40,24,220,TechSupply,Reorder
+P012,Headphones,Electronics,WH-West,75,30,150,75,35,AudioTech,In Stock
+P013,Printer Paper,Stationery,WH-North,90,100,250,160,5,PaperGoods,Reorder
+P014,Filing Cabinet,Furniture,WH-South,14,20,40,26,95,OfficePro,Reorder
+P015,USB Cable,Electronics,WH-East,180,60,300,120,6,TechSupply,In Stock

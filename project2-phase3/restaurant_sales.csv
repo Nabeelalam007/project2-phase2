@@ -1,0 +1,16 @@
+Sale_ID,Sale_Date,Item,Category,Quantity,Unit_Price,Revenue,Table_Type,Payment_Method,Staff
+R001,2026-01-05,Chicken Biryani,Main Course,3,8,24,Dine-In,Cash,Ali
+R002,2026-01-05,Chicken Burger,Fast Food,2,6,12,Takeaway,Card,Sara
+R003,2026-01-06,Caesar Salad,Appetizer,2,5,10,Dine-In,Card,Ahmed
+R004,2026-01-07,Grilled Chicken,Main Course,4,12,48,Dine-In,Cash,Ayesha
+R005,2026-01-08,French Fries,Side,5,3,15,Takeaway,Card,Ali
+R006,2026-01-10,Chocolate Cake,Dessert,2,5,10,Dine-In,Card,Sara
+R007,2026-01-12,Beef Steak,Main Course,2,18,36,Dine-In,Cash,Ahmed
+R008,2026-01-14,Chicken Pizza,Fast Food,3,10,30,Takeaway,Card,Ayesha
+R009,2026-01-16,Fresh Juice,Beverage,6,4,24,Dine-In,Cash,Ali
+R010,2026-01-18,Pasta Alfredo,Main Course,3,9,27,Dine-In,Card,Sara
+R011,2026-01-20,Cheesecake,Dessert,2,6,12,Takeaway,Card,Ahmed
+R012,2026-01-22,Chicken Wings,Appetizer,4,7,28,Dine-In,Cash,Ayesha
+R013,2026-01-24,Beef Burger,Fast Food,3,7,21,Takeaway,Card,Ali
+R014,2026-01-26,Mango Shake,Beverage,4,5,20,Dine-In,Cash,Sara
+R015,2026-01-28,Fish & Chips,Main Course,2,11,22,Dine-In,Card,Ahmed
